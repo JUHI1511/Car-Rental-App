@@ -1,7 +1,7 @@
 # Car-Rental-App
 The Car Rental Management System is a Java-based booking solution for renting car. It consolidates data provided by different rental services and hence provides the user details and rates in real-time.Customers may want to make changes in their bookings. The application allows them to book, cancel, view and update their bookings with ease other than this, it eases the management of bookings too. All the bookings,  can be viewed, added and modified on a single application by the administrator
 
-## Admin:
+## Admin
 ```
 1.Sign Up and Login
 2.View Customer List
