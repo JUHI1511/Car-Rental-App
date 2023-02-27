@@ -19,4 +19,25 @@ The Car Rental Management System is a Java-based booking solution for renting ca
 4.Add update get(only his) delete Customer details.
 5. Crud Operations on Bookings.
 ```
+## Application Flow
+```
+Flow of Data is:
+Controller receives the actual object.It is then processed by service layers.
+Entity is persisted to DAO (Data Access Object)
+While retrieving entity, it is then converted into DTO's with Model Mapper Class.
+DTO's is returned.
+Exception package consists of a Global Exception Handler and several other custom exception classes.
+```
+```
+Flow of Security is:
+Only requests to /registerUser is permitted to all.
+Authentication is performed through authentication manager of springframework security.
+Upon Successful authentication, accessToken and refreshToken are generated using JWT.
+These are returned to the user.
+User must include the accessToken in Authorization header of every request henceforth to access authorized APIs.
+```
+
+API requests collection on Postman:http://surl.li/fcceh (Shortened URL of Postman)
+
+Setting of accessTokens in postman can be automated using variables and test to set the variable.
 
