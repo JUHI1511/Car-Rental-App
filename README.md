@@ -36,8 +36,12 @@ Upon Successful authentication, accessToken and refreshToken are generated using
 These are returned to the user.
 User must include the accessToken in Authorization header of every request henceforth to access authorized APIs.
 ```
-
+### Postman Link
 API requests collection on Postman:http://surl.li/fcceh (Shortened URL of Postman)
 
 Setting of accessTokens in postman can be automated using variables and test to set the variable.
+
+### Steps to run the Application
+After running the application in 
+ Link:[Swagger](http://localhost:8080/swagger-ui.html#/)
 
