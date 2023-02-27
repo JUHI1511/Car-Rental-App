@@ -11,10 +11,12 @@ The Car Rental Management System is a Java-based booking solution for renting ca
 6.Bookings(Get All Bookings and Booking by Id)
 ```
 ## Customer
+```
 1.Create his user account.
 2. Login into the application.
 3. Check for available cars.
 4.Add update get(only his) delete Customer details.
 5. Crud Operations on Bookings.
+```
 
 
