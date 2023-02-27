@@ -42,6 +42,6 @@ API requests collection on Postman:http://surl.li/fcceh (Shortened URL of Postma
 Setting of accessTokens in postman can be automated using variables and test to set the variable.
 
 ### Steps to run the Application
-After running the application in 
+After running the application in your computer Go to this link.
  Link:[Swagger](http://localhost:8080/swagger-ui.html#/)
 
